@@ -1,0 +1,49 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+/.idea/dictionaries/yogi0.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
+/.idea/*
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.local-disable
+.env.development.local
+.env.development.local-disable
+.env.test.local
+.env.test.local-disable
+.env.production.local
+.env.production.local-disable
+
+# snoarqube
+.scannerwork
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/debug.log
+
+.next
+.vscode
+
+# Sentry Config File
+.env.sentry-build-plugin
+
+yarn.lock
+
+sonar-project.properties

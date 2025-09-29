@@ -1,0 +1,50 @@
+@import '_root.css';
+@import 'react-date-range/dist/styles.css';
+@import 'react-date-range/dist/theme/default.css';
+@import '_global.css';
+@import 'components/_sidebar.css';
+@import 'components/_element.css';
+@import 'components/_status.css';
+@import 'components/_tree.css';
+@import 'components/_modal.css';
+@import 'components/_table.css';
+@import 'components/_profile.css';
+@import '_overides.css';
+@import '../../node_modules/simplebar/dist/simplebar.min.css';
+
+a:hover {
+  color: var(--primary);
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #427bc7;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar:horizontal {
+  width: 6px;
+  height: 13px;
+}
+
+::-webkit-scrollbar-track:horizontal {
+  background: #ccc;
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background: #427bc7;
+  border-radius: 10px;
+}
+

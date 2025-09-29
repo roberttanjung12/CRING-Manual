@@ -1,0 +1,17 @@
+"
+(Validasi Kolom)
+Nomor urut
+Nama Customer (Mandatory), panjang maksimal adalah 60Karakter
+Nomor Telephone Customer, Format yang diperbolehkan berawalan 62xxxxxxxxx (max 30 karakter)
+Email Customer, format email yang valid/sesuai dengan panjang maksimal 150 karakter
+Nominal(Mandatory), Jumlah nominal transaksi dalam mata uang IDR (Penulisan tanpa koma atau spasi atau titik)
+Pembayaran, description text
+Kode Pembayaran, description text
+Keterangan, description text
+Tanggal Kadaluarsa, (Mandatory) format tanggal dd-mm-yyyy
+Waktu Kadaluarsa, (Mandatory) format waktu hh:mm:ss",,,,,,,,,
+1,Hercule Poirot,6281383183197,hercule.poirot@email.com,240000,SPP Sekolah,SPP0001,Untuk SPP bulan April,25-10-2024,23:59:59
+2,John Cassetti,6281224922429,john.cassetti@email.com,640000,SKS Kampus,SKS0002,Untuk 24SKS Semester Pendek,25-10-2024,23:59:59
+3,Edwart Ratchett,6281866331122,edwart.ratchett@email.com,1280000,Uang Buku Sekolah,Buku8003,Pembayaran buku LKS April,25-10-2024,23:59:59
+4,Pierre Michel,6283890123211,pierre.michel@email.com,2400000,Tiket kereta,Tiket0004,Beli tiket kereta ke Solo,25-10-2024,23:59:59
+5,Mary Debenham,6287162894721,mary.debenham@email.com,6600000,Tiket Pesawat,Tiket0005,Beli tiket pesawat ke Pontianak,25-10-2024,23:59:59

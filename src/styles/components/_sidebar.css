@@ -1,0 +1,10 @@
+#action--show-menu {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 90;
+  backdrop-filter: blur(2px);
+}

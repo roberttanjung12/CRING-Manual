@@ -1,0 +1,15 @@
+.fac-tree-check {
+  margin-bottom: 10px;
+}
+.fac-tree-check > .fac-tree-check {
+  padding-top: 5px;
+  padding-left: 35px;
+  margin-bottom: 0;
+}
+.fac-tree-check--label {
+  padding: 2.5px 10px 2.5px 10px;
+  background-color: #e4ebff;
+  border: 1px solid #c9d5f7;
+  border-radius: 5px;
+  color: #0f3492;
+}

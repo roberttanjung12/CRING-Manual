@@ -1,0 +1,21 @@
+"(Validasi Kolom)
+
+No, angka
+Nama Customer*, huruf - panjang maksimal 60 karakter
+Nomor Suffix, angka - maksimal 8 angka
+Email Customer, huruf - format email panjang maksimal 150 karakter
+Nominal IDR*, angka - tanpa koma atau titik
+Tanggal VA Expired*, Format tanggal dd-mm-yyyy
+Waktu VA Expired*, Format waktu H:i:s
+Nomor Telepon Customer, angka - 7 hingga 15 digit diawali  0 dan 62 untuk jenis VA Credit dan 62 untuk jenis va debit
+Description, text
+
+Notes
+Asteriks (*) pada header column adalah mandatory
+data di upload dengan ekstensi csv
+Mohon untuk tidak merubah template file ini"
+"1,Andi,12345678,andi@email.com,10000,14-02-2023,23:59:59,62123456789,pembayaran kuliah"
+"2,Budi,87654321,budi@email.com,11000,01-02-2025,18:13:31,62123456790,"
+"3,Cinta,10987654321,cinta@email.com,12000,31-12-2023,23:59:59,628123456,12 bulan bayar gaji"
+"4,Dewa,654321765,dewa@email.com,13000,03-12-2024,10:29:18,08249851928"
+"5,Eka,43526789,eka@email.com,14000,17-08-2023,10:11:12,0823456793765"

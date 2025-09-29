@@ -1,0 +1,83 @@
+.profile-cover {
+  overflow: hidden;
+  background-color: white;
+  border-radius: 5px;
+}
+.profile-cover--cover-box {
+  position: relative;
+  height: 190px;
+  overflow: hidden;
+}
+.profile-cover--cover {
+  position: relative;
+  height: 190px;
+}
+.profile-cover--cover img {
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+.profile-cover---button {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  z-index: 10;
+}
+.profile-cover--photo {
+  position: relative;
+  z-index: 3;
+  padding: 15px 50px 15px 50px;
+}
+.profile-cover--photo-box {
+  margin-top: -75px;
+}
+.profile-cover--photo-photo {
+  position: relative;
+  height: 122px;
+  width: 122px;
+}
+.profile-cover--photo-photo-img {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 100%;
+  box-shadow: 0 0 5px #d3d1d1;
+}
+.profile-cover--photo-photo-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.profile-cover--photo-photo-skin {
+  position: absolute;
+  right: 1px;
+  bottom: 10px;
+  z-index: 3;
+}
+.profile-cover--photo-photo-skin div.cursor-pointer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 100%;
+  box-shadow: 0 0 10px #cfcfcf;
+}
+.profile-cover--photo-name > span {
+  display: inline-block;
+  padding: 0 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  font-family: ProximaNovaSemiBold, sans-serif;
+  font-size: 24px;
+  color: white;
+}
+.profile-info--title {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #a09e9e;
+  font-family: ProximaNovaSemiBold, sans-serif;
+  font-size: 26px;
+}

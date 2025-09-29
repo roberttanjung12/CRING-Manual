@@ -1,0 +1,79 @@
+.fac-status {
+  display: inline-block;
+  padding: 5px;
+  background: rgba(10, 71, 204, 0.2);
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 12px;
+  color: #0a47cc;
+}
+.fac-status.--width-full {
+  width: 100%;
+}
+.fac-status.--active {
+  background: #caeadf;
+  color: var(--text-green);
+}
+.fac-status.--inactive {
+  background: #ffcac6;
+  color: #f44336;
+}
+.fac-status.--green {
+  background: rgba(10, 197, 75, 0.2);
+  color: #0ac54b;
+}
+.MuiButtonBase-root .--skin {
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+  z-index: 5;
+  background-color: white;
+  border-radius: 100%;
+  font-size: 14px;
+  color: #868484;
+}
+.MuiButtonBase-root .--skin.--green {
+  color: var(--text-green);
+}
+.MuiButtonBase-root .--skin.--red {
+  color: var(--red);
+}
+
+.spe-info {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+  color: #0f3492;
+  font-weight: 400;
+}
+.spe-info::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #6f88c6;
+  border-radius: 10px;
+  opacity: 0.5;
+}
+.spe-info > .MuiSvgIcon-root {
+  margin-right: 20px;
+}
+
+.dttot-status {
+  display: inline-flex;
+  justify-content: center;
+  gap : 0.5em;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #F5C108;
+  border-radius: 50px;
+  font-size: 12px;
+  color: #fff;
+  text-align:center
+}

@@ -1,0 +1,37 @@
+.modal--doc-show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 990;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.modal--doc-show-inner {
+  max-height: 100%;
+  max-width: 100%;
+  overflow-y: auto;
+  background-color: white;
+  border-radius: 5px;
+}
+.modal--doc-show-inner img,
+.modal--doc-show-inner video,
+.modal--doc-show-inner audio {
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+.modal--doc-show-close {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  z-index: 5;
+  background-color: white;
+  border-radius: 100%;
+  cursor: pointer;
+}

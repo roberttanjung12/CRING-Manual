@@ -1,0 +1,49 @@
+.--row-child-point {
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  height: 5px;
+  width: 5px;
+  margin-top: -2.5px;
+  z-index: 3;
+  background-color: #7388C1;
+  border-radius: 100%;
+}
+.--row-child-point-2::before,
+.--row-child-point-2::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 41.35px;
+  height: 50%;
+  border-width: 0.5px;
+  border-style: dashed;
+  border-color: #7388C1;
+}
+.--row-child-point-2::before {
+  top: 0;
+}
+.--row-child-point-2::after {
+  bottom: 0;
+}
+.--row-child-point-2.--first::before,
+.--row-child-point-2.--last::after,
+.--row-child-point-2.--alone::after,
+.--row-child-point-2.--alone::before {
+  display: none;
+}
+
+.table-export {
+  width: 100%;
+}
+.table-export,
+.table-export th,
+.table-export td {
+  border: 1px solid rgb(122, 122, 122);
+  border-collapse: collapse;
+}
+.table-export th,
+.table-export td {
+  padding: 5px;
+}

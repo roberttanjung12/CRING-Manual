@@ -1,0 +1,44 @@
+.MuiButton-root {
+  font-family: ProximaNovaRegular, sans-serif;
+}
+textarea {
+  width: 100%;
+  padding: 16.5px 14px;
+  border: 1px solid #8f8f8f;
+  border-radius: 10px;
+  outline: none;
+}
+textarea:focus {
+  outline: none;
+}
+textarea:disabled {
+  background-color: #dedede;
+  border: none;
+}
+.rdrInputRanges {
+  display: none !important;
+}
+.rti--container {
+  --rti-border: '#CDCDCD';
+  --rti-radius: '5px';
+  min-height: 50px;
+}
+.rti--input {
+  min-height: 25px;
+  background-color: transparent;
+}
+
+.MuiButtonBase-root.--no--min-width {
+  min-width: 0;
+}
+
+/* react-tag-input-component */
+.rti--container:has(> .rti--input[disabled]) {
+  background-color: #dedede;
+}
+.rti--input[disabled] {
+  display: none;
+}
+.rti--container:has(> .rti--input[disabled]) > .rti--tag {
+  opacity: 0.5;
+}

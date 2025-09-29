@@ -1,0 +1,67 @@
+/* group: text */
+.text-normal {
+  font-family: ProximaNovaRegular, sans-serif;
+}
+/* .text-semi-bold { font-family: ProximaNovaSemiBold; } */
+/* .text-bold { font-family: ProximaNovaBold; } */
+.text-semi-bold {
+  font-weight: 500;
+}
+.text-bold {
+  font-weight: 900;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-black {
+  color: var(--black);
+}
+.text-green {
+  color: var(--text-green);
+}
+.text-red {
+  color: var(--red);
+}
+.text-grey {
+  color: var(--grey);
+}
+.text-blur {
+  color: #868484;
+}
+.text-primary {
+  color: var(--primary-text);
+}
+.text-primary-dark {
+  color: var(--primary-text-dark);
+}
+.text-highlight {
+  color: var(--primary-text);
+}
+.text-label {
+  font-family: ProximaNovaSemiBold, sans-serif;
+}
+.text-link:hover {
+  color: var(--primary-text);
+  cursor: pointer;
+}
+.spe-error-field * {
+  border-color: var(--red) !important;
+}
+.spe-error {
+  font-size: 12px;
+  color: var(--red);
+}
+
+/* group: cursor */
+.cursor-pointer {
+  cursor: pointer;
+}
+.cursor-text {
+  cursor: text;
+}
