@@ -1,4 +1,3 @@
-// Onboarding Phase Exports
 export { default as ProjectOverviewPage } from './project-overview';
 
 export { default as TechStackPage } from './tech-stack';
